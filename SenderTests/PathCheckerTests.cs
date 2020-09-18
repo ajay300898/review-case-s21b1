@@ -19,7 +19,7 @@ namespace SenderTests
         [Fact]
         public void WhenNonExistingPathIsGivenToDoesPathExistReturnFalse()
         {
-            const string path = "..\Desktop/Sample.csv";
+            const string path = "/Sample1.csv";
             Assert.False(PathChecker.DoesPathExists(path));
         }
     }
