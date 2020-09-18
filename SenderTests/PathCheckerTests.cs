@@ -13,7 +13,7 @@ namespace SenderTests
         [Fact]
         public void WhenExistingPathIsGivenToDoesPathExistReturnTrue()
         {
-            const string path = "..\Sample.csv";
+            const string path = "https://raw.githubusercontent.com/ajay300898/review-case-s21b1/master/Sample.csv";
             Assert.True(PathChecker.DoesPathExists(path));
         }
         [Fact]
