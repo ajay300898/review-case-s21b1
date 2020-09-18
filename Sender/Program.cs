@@ -14,7 +14,7 @@ namespace Sender
 
         static void Main(string[] args)
         {
-            string path = "C:/Users/Ajay kumar/Desktop/Sample.csv";
+            string path = "..\Sample.csv";
             while (!PathChecker.DoesPathExists(path))
             {
                 path = Console.ReadLine();                                 // Modify to reduce Complexity
