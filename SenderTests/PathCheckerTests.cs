@@ -13,13 +13,13 @@ namespace SenderTests
         [Fact]
         public void WhenExistingPathIsGivenToDoesPathExistReturnTrue()
         {
-            const string path = "C:/Users/Ajay kumar/Desktop/Sample.csv";
+            const string path = "..\Sample.csv";
             Assert.True(PathChecker.DoesPathExists(path));
         }
         [Fact]
         public void WhenNonExistingPathIsGivenToDoesPathExistReturnFalse()
         {
-            const string path = "C:/Users/Desktop/Sample.csv";
+            const string path = "..\Desktop/Sample.csv";
             Assert.False(PathChecker.DoesPathExists(path));
         }
     }
